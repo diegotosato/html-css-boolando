@@ -182,7 +182,7 @@ nav a {
     height: 100%;
 }
 
-.card-img:hover>img {
+.card-img:hover>a>img {
     opacity: 0;
     transition: 1.3s;
     cursor: pointer;
