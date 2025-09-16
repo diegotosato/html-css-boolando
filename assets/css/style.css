@@ -177,6 +177,10 @@ nav a {
     }
 }
 
+.brand{
+    text-transform: capitalize;
+}
+
 .product-name{
     font-weight: bold;
     text-transform: uppercase;
