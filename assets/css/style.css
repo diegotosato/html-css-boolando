@@ -138,6 +138,10 @@ header {
 
 nav a {
     font-weight: bold;
+
+    &:hover{
+        color: var(--bl-secondary);
+    }
 }
 
 .logo {
@@ -145,12 +149,18 @@ nav a {
 
     img {
         width: 100%;
+        cursor: pointer;
     }
 }
 
 .reserved-area i {
     color: var(--bl-bg-w);
     margin-left: 0.5rem;
+
+    &:hover{
+        cursor: pointer;
+        color: var(--bl-secondary);
+    }
 }
 
 /* #endregion header */
@@ -174,7 +184,7 @@ nav a {
 
 .card-img:hover>img {
     opacity: 0;
-    transition: 1.3s 0.3s;
+    transition: 1.3s;
     cursor: pointer;
 }
 
@@ -194,6 +204,7 @@ nav a {
 
 
 .brand {
+    margin-top: 0.5rem;
     text-transform: capitalize;
 }
 
@@ -235,8 +246,11 @@ footer {
     }
 
     a {
-
         margin-right: 0.5rem;
+
+        &:hover{
+            color: var(--bl-principal);
+        }
     }
 }
 
@@ -249,7 +263,13 @@ footer {
     i {
         color: var(--bl-bg-w);
         font-size: 1.5rem;
+
+        &:hover{
+            color: var(--bl-principal);
+            cursor: pointer;
+        }
     }
 }
 
 /* #endregion footer */
+
