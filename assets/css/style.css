@@ -81,6 +81,24 @@ footer {
     height: 10%;
 }
 
+.referrals{
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.credits{
+    width: 386px;
+    height: 57px;
+    background-color: lightblue;
+}
+
+.socials{
+    width: 148px;
+    height: 57px;
+    background-color: lightblue;
+}
+
 /* #endregion debug */
 
 /* #region generics */
