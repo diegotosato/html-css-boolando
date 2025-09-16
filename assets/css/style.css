@@ -18,8 +18,11 @@ img {
 }
 
 header {
+    width: 100%;
     height: 72px;
     background-color: red;
+    align-items: center;
+    justify-content: space-between;
 }
 
 main {
@@ -32,20 +35,28 @@ footer {
     background-color: blue;
 }
 
+.boolando{
+    align-items: center;
+    justify-content: space-between;
+}
 
+.nav{
+    width: 180px;
+    height: 16px;
+    background-color: yellow;
+}
 
+.logo{
+    width: 146px;
+    height: 35px;
+    background-color: yellow;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.reserved-area{
+    width: 67px;
+    height: 16px;
+    background-color: yellow;
+}
 
 /* #endregion debug */
 
@@ -54,6 +65,17 @@ body {
     min-width: 1020px;
 }
 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
 /* #endregion generics */
 
 
@@ -62,6 +84,22 @@ body {
 .container {
     width: 70%;
     margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-fixed{
+    position: fixed;
 }
 
 :root {
