@@ -23,6 +23,7 @@ header {
     background-color: red;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 main {
@@ -56,6 +57,27 @@ footer {
     width: 67px;
     height: 16px;
     background-color: yellow;
+}
+
+.product-row{
+    width: 100%;
+    height: 700px;
+    background-color: lightgreen;
+}
+
+.card{
+    flex-grow: 1;
+    height: 100%;
+}
+
+.card-img{
+    width: 100%;
+    height: 90%;
+}
+
+.card-details{
+    width: 100%;
+    height: 10%;
 }
 
 /* #endregion debug */
