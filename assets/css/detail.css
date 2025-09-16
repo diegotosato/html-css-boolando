@@ -17,6 +17,12 @@ img {
     border: 1px dashed black;
 }
 
+main{
+    height: 1500px;
+    width: 100%;
+    background-color: blue;
+}
+
 /* #endregion debug */
 
 /* #region generics */
@@ -162,6 +168,62 @@ nav a {
 /* #endregion header */
 
 
+/* #region main */
+.product-zoom{
+    justify-content: space-between;
+}
+
+.card {
+    width: 40%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.card-img:hover>a>img {
+    opacity: 0;
+    transition: 1.3s;
+    cursor: pointer;
+}
+
+.overlay {
+    bottom: 0;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        z-index: 1;
+    }
+}
+
+.card-details{
+    font-size: 4rem;
+    width: 50%;
+}
+
+.brand {
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
+.product-name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sale-price {
+    font-weight: bold;
+    color: var(--bl-sale);
+}
+
+.old-price {
+    font-size: 2.8rem;
+    text-decoration: line-through;
+}
 
 
 
