@@ -77,6 +77,21 @@ a {
     --bl-bg-w: white;
 }
 
+.heart{
+    font-size: 2rem;
+    background-color: var(--bl-bg-w);
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    right: 0;
+    top: 0.5rem;
+
+    &:hover{
+        color: var(--bl-sale);
+        cursor: pointer;
+    }
+}
 /* #endregion Utilities */
 
 
@@ -88,6 +103,9 @@ header {
     width: 100%;
     background-color: var(--bl-principal);
     padding: 1rem 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .boolando {
