@@ -73,11 +73,11 @@ a {
     --bl-principal: #ff6900;
     --bl-secondary: #1a1a1a;
     --bl-sale: #ff0000;
-    --bl-sostenibility: #008000;
+    --bl-sustainability: #008000;
     --bl-bg-w: white;
 }
 
-.heart{
+.heart {
     font-size: 2rem;
     background-color: var(--bl-bg-w);
     width: 3rem;
@@ -87,11 +87,32 @@ a {
     right: 0;
     top: 0.5rem;
 
-    &:hover{
+    &:hover {
         color: var(--bl-sale);
         cursor: pointer;
     }
 }
+
+.badges{
+    gap: 0.3rem;
+    bottom: 6rem;
+    left: 0;
+}
+
+.sale-percentage {
+    color: var(--bl-bg-w);
+    font-weight: bold;
+    background-color: var(--bl-sale);
+    padding: 0.3rem 0.8rem;
+}
+
+.sustainability{
+    color: var(--bl-bg-w);
+    font-weight: bold;
+    background-color: var(--bl-sustainability);
+    padding: 0.3rem 0.8rem;
+}
+
 /* #endregion Utilities */
 
 
@@ -188,16 +209,17 @@ footer {
     padding: 2rem 0;
 }
 
-.referrals{
+.referrals {
     justify-content: space-between;
 }
 
 .credits {
-    h1{
+    h1 {
         color: var(--bl-bg-w);
         font-size: 1.3rem;
         margin-bottom: 1rem;
     }
+
     a {
 
         margin-right: 0.5rem;
@@ -205,17 +227,15 @@ footer {
 }
 
 .socials {
-    p{
-    color: var(--bl-bg-w);
-    margin-bottom: 1rem;
+    p {
+        color: var(--bl-bg-w);
+        margin-bottom: 1rem;
     }
 
-    i{
+    i {
         color: var(--bl-bg-w);
         font-size: 1.5rem;
     }
 }
 
 /* #endregion footer */
-
-
