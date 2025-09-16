@@ -1,22 +1,75 @@
 /* #region CSSreset */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     display: block;
 }
 
 /* #endregion CSSreset */
 
 /* #region debug */
-.debug{
-    border: 1px solid black;
+.debug * {
+    border: 1px dashed black;
 }
+
+header {
+    height: 72px;
+    background-color: red;
+}
+
+main {
+    height: 1552px;
+    background-color: green;
+}
+
+footer {
+    height: 110px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* #endregion debug */
 
+/* #region generics */
+body {
+    min-width: 1020px;
+}
 
+/* #endregion generics */
+
+
+/* #region Utilities */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+:root {
+    --bl-principal: #ff6900;
+    --bl-secondary: #1a1a1a;
+    --bl-sale: #ff0000;
+    --bl-sostenibility: #008000;
+    --bl-bg-w: white;
+}
+
+/* #endregion Utilities */
