@@ -161,6 +161,7 @@ nav a {
 /* product row */
 .product-row {
     gap: 1rem;
+    margin-bottom: 3rem;
 }
 
 .card {
@@ -194,3 +195,7 @@ nav a {
 .old-price{
     text-decoration: line-through;
 }
+
+/* #endregion main */
+
+
