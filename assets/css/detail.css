@@ -116,3 +116,48 @@ a {
 
 /* #endregion Utilities */
 
+/* #region header */
+
+header {
+    width: 100%;
+    background-color: var(--bl-principal);
+    padding: 1rem 0;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.boolando {
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    font-weight: bold;
+
+    &:hover{
+        color: var(--bl-secondary);
+    }
+}
+
+.logo {
+    width: 145px;
+
+    img {
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+.reserved-area i {
+    color: var(--bl-bg-w);
+    margin-left: 0.5rem;
+
+    &:hover{
+        cursor: pointer;
+        color: var(--bl-secondary);
+    }
+}
+
+/* #endregion header */
+
