@@ -17,47 +17,6 @@ img {
     border: 1px dashed black;
 }
 
-
-
-main {
-    /* height: 1552px; */
-    background-color: green;
-}
-
-footer {
-    height: 110px;
-    background-color: blue;
-}
-
-
-
-
-
-
-
-.card-details {
-    width: 100%;
-    height: 10%;
-}
-
-.referrals {
-    height: 100%;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.credits {
-    width: 386px;
-    height: 57px;
-    background-color: lightblue;
-}
-
-.socials {
-    width: 148px;
-    height: 57px;
-    background-color: lightblue;
-}
-
 /* #endregion debug */
 
 /* #region generics */
@@ -77,6 +36,7 @@ li {
 
 a {
     text-decoration: none;
+    color: var(--bl-bg-w);
 }
 
 /* #endregion generics */
@@ -119,6 +79,9 @@ a {
 
 /* #endregion Utilities */
 
+
+
+
 /* #region header */
 
 header {
@@ -134,7 +97,6 @@ header {
 
 nav a {
     font-weight: bold;
-    color: var(--bl-bg-w);
 }
 
 .logo {
@@ -178,24 +140,64 @@ nav a {
     }
 }
 
-.brand{
+.brand {
     text-transform: capitalize;
 }
 
-.product-name{
+.product-name {
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.sale-price{
+.sale-price {
     font-weight: bold;
     color: var(--bl-sale);
 }
 
-.old-price{
+.old-price {
     text-decoration: line-through;
 }
 
 /* #endregion main */
+
+
+
+
+/* #region footer */
+
+footer {
+    background-color: var(--bl-secondary);
+    padding: 2rem 0;
+}
+
+.referrals{
+    justify-content: space-between;
+}
+
+.credits {
+    h1{
+        color: var(--bl-bg-w);
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    a {
+
+        margin-right: 0.5rem;
+    }
+}
+
+.socials {
+    p{
+    color: var(--bl-bg-w);
+    margin-bottom: 1rem;
+    }
+
+    i{
+        color: var(--bl-bg-w);
+        font-size: 1.5rem;
+    }
+}
+
+/* #endregion footer */
 
 
