@@ -161,3 +161,57 @@ nav a {
 
 /* #endregion header */
 
+
+
+
+
+
+
+
+
+/* #region footer */
+
+footer {
+    background-color: var(--bl-secondary);
+    padding: 2rem 0;
+}
+
+.referrals {
+    justify-content: space-between;
+}
+
+.credits {
+    h1 {
+        color: var(--bl-bg-w);
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    a {
+        margin-right: 0.5rem;
+
+        &:hover{
+            color: var(--bl-principal);
+        }
+    }
+}
+
+.socials {
+    p {
+        color: var(--bl-bg-w);
+        margin-bottom: 1rem;
+    }
+
+    i {
+        color: var(--bl-bg-w);
+        font-size: 1.5rem;
+
+        &:hover{
+            color: var(--bl-principal);
+            cursor: pointer;
+        }
+    }
+}
+
+/* #endregion footer */
+
