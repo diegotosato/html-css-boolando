@@ -12,3 +12,11 @@ img{
 
 /* #endregion CSSreset */
 
+/* #region debug */
+.debug{
+    border: 1px solid black;
+}
+
+/* #endregion debug */
+
+
