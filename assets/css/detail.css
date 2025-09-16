@@ -17,12 +17,6 @@ img {
     border: 1px dashed black;
 }
 
-main{
-    height: 1500px;
-    width: 100%;
-    background-color: blue;
-}
-
 /* #endregion debug */
 
 /* #region generics */
@@ -100,10 +94,9 @@ a {
 }
 
 .badges {
-    gap: 0.3rem;
-    bottom: 6rem;
-    left: 0;
-    z-index: 2;
+    margin-top: 1.8rem;
+    font-size: 2rem;
+    gap: 1rem;
 }
 
 .sale-percentage {
@@ -141,7 +134,7 @@ header {
 nav a {
     font-weight: bold;
 
-    &:hover{
+    &:hover {
         color: var(--bl-secondary);
     }
 }
@@ -159,7 +152,7 @@ nav a {
     color: var(--bl-bg-w);
     margin-left: 0.5rem;
 
-    &:hover{
+    &:hover {
         cursor: pointer;
         color: var(--bl-secondary);
     }
@@ -169,8 +162,9 @@ nav a {
 
 
 /* #region main */
-.product-zoom{
+.product-zoom {
     justify-content: space-between;
+    margin-bottom: 8rem;
 }
 
 .card {
@@ -199,7 +193,7 @@ nav a {
     }
 }
 
-.card-details{
+.card-details {
     font-size: 4rem;
     width: 50%;
 }
@@ -225,7 +219,15 @@ nav a {
     text-decoration: line-through;
 }
 
+select {
+    width: 100%;
+    border: 5px solid var(--bl-principal);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
 
+/* #endregion main */
 
 
 
@@ -252,7 +254,7 @@ footer {
     a {
         margin-right: 0.5rem;
 
-        &:hover{
+        &:hover {
             color: var(--bl-principal);
         }
     }
@@ -268,7 +270,7 @@ footer {
         color: var(--bl-bg-w);
         font-size: 1.5rem;
 
-        &:hover{
+        &:hover {
             color: var(--bl-principal);
             cursor: pointer;
         }
@@ -276,4 +278,3 @@ footer {
 }
 
 /* #endregion footer */
-
