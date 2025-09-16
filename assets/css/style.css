@@ -128,7 +128,7 @@ header {
     padding: 1rem 0;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .boolando {
@@ -172,13 +172,14 @@ nav a {
     height: 100%;
 }
 
-.overlay {
-    display: none;
-    bottom: 0;
+.card-img:hover>img {
+    opacity: 0;
+    transition: 1.3s 0.3s;
+    cursor: pointer;
 }
 
-.card:hover .overlay {
-    display: block;
+.overlay {
+    bottom: 0;
 }
 
 .card-img {
@@ -187,6 +188,7 @@ nav a {
 
     img {
         width: 100%;
+        z-index: 1;
     }
 }
 
